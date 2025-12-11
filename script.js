@@ -105,13 +105,15 @@ function documentLoader() {
   var PercyArray = Array.from(visible_percy);
     if (event.target.value == 'both') {
     //write an forEach() method that shows all the text written and modified by both hand (in black?). The forEach() method of Array instances executes a provided function once for each array element.
-     
+      visible_mary.forEach((element) => {copyMaryArray.push(element);});
+      visible_percy.forEach((element) => {copyPercyArray.push(element);});
+
     } else if (event.target.value == 'Mary') {
      //write an forEach() method that shows all the text written and modified by Mary in a different color (or highlight it) and the text by Percy in black. 
-     
+     visible_mary.forEach((element) => {copyMaryArray.push(element);});
     } else {
      //write an forEach() method that shows all the text written and modified by Percy in a different color (or highlight it) and the text by Mary in black.
-    
+      visible_percy.forEach((element) => {copyPercyArray.push(element);});
     }
   }
 // write another function that will toggle the display of the deletions by clicking on a button

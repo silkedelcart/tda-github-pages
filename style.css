@@ -1,6 +1,6 @@
 body {
-    background-color: white;
-}
+    background-color: #03284d;
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -16,16 +16,6 @@ img {
 #image_container {
     width:100%;
     overflow:auto;
-}
-
-#image_left {
-    float: left;
-    width: 33%;
-}
-
-#image_right {
-    float: left;
-    width: 33%;
 }
 
 
@@ -51,4 +41,9 @@ p {
     display: none !important;
 }
 
-
+title{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:lightgoldenrodyellow
+}
