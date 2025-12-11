@@ -8,7 +8,26 @@ body {
 
 img {
     max-width: 100%;
+    height: 400px;
+    display: block;
+    margin-bottom: 15px;
 }
+
+#image_container {
+    width:100%;
+    overflow:auto;
+}
+
+#image_left {
+    float: left;
+    width: 33%;
+}
+
+#image_right {
+    float: left;
+    width: 33%;
+}
+
 
 p {
     text-indent: 10px;
